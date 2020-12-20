@@ -65,7 +65,7 @@ class _UserListState extends State<UserList> {
                     ),
                     title: Text(
                       controller.userData.userDataList[index].firstName +
-                          '   ' +
+                          ' ' +
                           controller.userData.userDataList[index].lastName,
                     ),
                     subtitle: Text(
